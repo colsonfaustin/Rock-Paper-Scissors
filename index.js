@@ -28,8 +28,8 @@ function playRound(humanChoice, computerChoice){
     //humanChoice.toLowerCase();
     
     if (humanChoice == computerChoice){
-        alert("No winner , humanchoice: " +
-            humanChoice + " ComputerChoice: " 
+        alert("No winner , your choice: " +
+            humanChoice + " computer choice: " 
          + computerChoice);
     } else if (humanChoice =="rock" && computerChoice == "scissors") {
         alert("You win! " + humanChoice + " beats " + computerChoice);
