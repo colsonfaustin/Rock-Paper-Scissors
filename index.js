@@ -62,7 +62,7 @@ function playGame(){
     if (humanScore > computerScore) {
         alert("You won the game  " +  humanScore + " over " + computerScore )
     } else if (humanScore == computerScore){
-        alert("No winners" + computerScore + " over " + humanScore);
+        alert("No winners " + computerScore + " over " + humanScore);
     } else {
             alert( "You lost the game " + computerScore + " over " + humanScore)
     }
